@@ -23,6 +23,7 @@ import org.laboration.two.model.Vertex2D;
  * @version 2.0
  *
  */
+// HEHEHEJEJHJ
 public class FigureController implements FigureHandler, FigureMover, FigureScalor, FigureRotor, FigurePrinter {
 	private List<Figure> movableFigures;
 	private List<Scale> scalableFigures;
