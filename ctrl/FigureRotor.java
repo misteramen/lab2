@@ -1,8 +1,7 @@
 package org.laboration.two.control;
 
 /**
- * The <code>FigureRotor</code> interface scales all instantiated objects that 
- * are instances of a class that implements the <code>Rotate</code> interface.
+ * Interfacet <code>FigureRotor</code> roterar alla roterbara figurer.
  * 
  * @author Andreas Brodin
  * @author Niklas Lindfors
