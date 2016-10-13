@@ -1,7 +1,7 @@
 package org.laboration.two.model;
 
 /**
- * The <code>Scale</code> interface adds scale functionality to its 
+ * The <code>Scalable</code> interface adds scale functionality to its 
  * implemented classes.
  * 
  * @author Andreas Brodin
@@ -10,7 +10,7 @@ package org.laboration.two.model;
  * @version 2.0
  *
  */
-public interface Scale {
+public interface Scalable {
 	/**
 	 * This method applies scaling in the x and y-axis by the factors xFactor and yFactor.
 	 * 
