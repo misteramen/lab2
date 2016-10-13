@@ -1,8 +1,7 @@
 package org.laboration.two.control;
 
 /**
- * The <code>FigureScalor</code> interface scales all instantiated objects that 
- * are instances of a class that implements the <code>Scale</code> interface.
+ * Interfacet <code>FigureScalor</code> skalar om alla skalbara figurer.
  * 
  * @author Andreas Brodin
  * @author Niklas Lindfors
