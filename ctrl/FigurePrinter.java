@@ -1,8 +1,7 @@
 package org.laboration.two.control;
 
 /**
- * The <code>FigurePrinter</code> interface prints out all the data of all 
- * instantiated objects.
+ * Interfacet <code>FigurePrinter</code> skriver ut data för alla figurer.
  * 
  * @author Andreas Brodin
  * @author Niklas Lindfors
