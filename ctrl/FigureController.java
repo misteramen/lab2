@@ -14,8 +14,12 @@ import org.laboration.two.model.Triangle;
 import org.laboration.two.model.Vertex2D;
 
 /**
- * The <code>FigureController</code> class represent the base class for the representation of 
- * figures in 2D-space.
+ * Klassen “FigureController” har som syfte att hantera den logiska och styrande 
+ * delen av programmet. Den skapar och sorterar de olika figurerna i listor som 
+ * beskriver beteenden. Det finns tre beteenden som figurerna klassificeras enligt 
+ * med genom operationen classify(): movableFigures, scalableFigures och 
+ * rotatableFigures. Alla figurer är flyttbara och vissa figurer har alla tre 
+ * beteenden.
  * 
  * @author Andreas Brodin
  * @author Niklas Lindfors
@@ -150,22 +154,5 @@ public class FigureController implements FigureHandler, FigureMover, FigureScalo
 	
 	public List<Rotate> getRotatableFigures() {
 		return rotatableFigures;
-	}
-	
-	public static void main(String[] args) {
-		FigureController controller = new FigureController();
-		
-		controller.createPoint(new Vertex2D(2, 1));
-		controller.createLine(new Vertex2D(2, 1), new Vertex2D(6, 5));
-		controller.createTriangle(new Vertex2D(-3, 1), new Vertex2D(-1, 5), new Vertex2D(8, -4));		
-		controller.createCircle(new Vertex2D(2, 1), 5);
-		controller.createLine(new Vertex2D(-5, 1), new Vertex2D(-1, 2));
-		controller.createRectangle(new Vertex2D(2, 1), 5, 4);
-
-		System.out.println("Movable figures: \n\n" + controller.getMovableFigures());
-		System.out.println("\n------------------------------------------------------------------------------\n");
-		System.out.println("Scalable figures: \n\n" + controller.getScalableFigures());
-		System.out.println("\n------------------------------------------------------------------------------\n");
-		System.out.println("Rotatable figures: \n\n" + controller.getRotatableFigures());
 	}
 }
