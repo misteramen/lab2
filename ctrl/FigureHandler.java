@@ -3,7 +3,7 @@ package org.laboration.two.control;
 import org.laboration.two.model.Vertex2D;
 
 /**
- * The <code>FigureHandler</code> interface...
+ * Interfacet <code>FigureHandler</code> skapar enskilda figurer och kan även ta bort alla figurer.
  * 
  * @author Andreas Brodin
  * @author Niklas Lindfors
