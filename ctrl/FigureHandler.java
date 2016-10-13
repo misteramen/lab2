@@ -12,10 +12,10 @@ import org.laboration.two.model.Vertex2D;
  *
  */
 public interface FigureHandler {
-	public void createCircle(Vertex2D position, double radius);
-	public void createLine(Vertex2D a, Vertex2D b);
-	public void createPoint(Vertex2D position);
-	public void createRectangle(Vertex2D center, double width, double height);
-	public void createTriangle(Vertex2D a, Vertex2D b, Vertex2D c);
+	public void createCircle(double x, double y, double radius);
+	public void createLine(double x0, double y0, double x1, double y1);
+	public void createPoint(double x, double y);
+	public void createRectangle(double x, double y, double width, double height);
+	public void createTriangle(double x0, double y0, double x1, double y1, double x2, double y2);
 	public void removeAll();
 }
