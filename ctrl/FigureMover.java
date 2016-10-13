@@ -1,8 +1,7 @@
 package org.laboration.two.control;
 
 /**
- * The <code>FigureMover</code> interface moves all instantiated objects that 
- * are instances of classes whose parent class is <code>Figure</code>.
+ * Interfacet <code>FigureMover</code> flyttar alla flyttbara figurer. 
  * 
  * @author Andreas Brodin
  * @author Niklas Lindfors
