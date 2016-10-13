@@ -1,7 +1,7 @@
 package org.laboration.two.model;
 
 /**
- * The <code>Rotate</code> interface adds rotation functionality to its 
+ * The <code>Rotatable</code> interface adds rotation functionality to its 
  * implemented classes.
  * 
  * @author Andreas Brodin
@@ -10,7 +10,7 @@ package org.laboration.two.model;
  * @version 2.0
  *
  */
-public interface Rotate {
+public interface Rotatable {
 	/**
 	 * This method applies rotation by a supplied <code>angle</code>.
 	 * 
