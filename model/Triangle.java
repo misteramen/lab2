@@ -14,7 +14,7 @@ package org.laboration.two.model;
  * @version 2.0
  *
  */
-public class Triangle extends Figure implements Scale, Rotate {
+public class Triangle extends Figure implements Movable, Scale, Rotate {
 	private Vertex2D a;
 	private Vertex2D b;
 	private Vertex2D c;
