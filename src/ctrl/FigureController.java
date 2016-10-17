@@ -1,4 +1,4 @@
-package org.laboration.two.control;
+package ctrl;
 
 import java.util.ArrayList;
 import java.util.List;
