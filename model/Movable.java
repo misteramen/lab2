@@ -1,3 +1,14 @@
+package org.laboration.two.model;
+
+/**
+ * The <code>Movable</code> interface adds movability to its implemented classes.
+ * 
+ * @author Andreas Brodin
+ * @author Niklas Lindfors
+ * @author Joshua Lutakome Yawe
+ * @version 1.0
+ *
+ */
 public interface Movable {
 	/**
 	 * This method moves a figure in the x-axis by a distance of <code>dx</code> and
