@@ -1,4 +1,4 @@
-package org.laboration.two.control;
+package ctrl;
 
 import org.laboration.two.model.Vertex2D;
 
