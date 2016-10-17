@@ -14,7 +14,7 @@ package org.laboration.two.model;
  * @version 2.0
  *
  */
-public class Point extends Figure {
+public class Point extends Figure implements Movable {
 	/**
 	 * Holds the values of the Point's coordinates.
 	 * 
