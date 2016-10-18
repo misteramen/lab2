@@ -40,7 +40,7 @@ public class FigureController implements FigureHandler, FigureMover, FigureScalo
 
 	@Override
 	public void createPoint(double x, double y) {
-		movableFigures.add(new Point(position));
+		movableFigures.add(new Point(new Vertex2D(x, y)));
 	}
 
 	@Override
