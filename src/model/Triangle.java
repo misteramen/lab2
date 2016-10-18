@@ -1,4 +1,4 @@
-package org.laboration.two.model;
+package model;
 
 /**
  * The <code>Triangle</code> class represents a triangle in 2D-space. It contains three
