@@ -1,7 +1,7 @@
 package org.laboration.two.model;
 
 /**
- * The <code>Scale</code> interface adds scale functionality to its 
+ * The <code>Scalable</code> interface adds scale functionality to its 
  * implemented classes.
  * 
  * @author Andreas Brodin
