@@ -1,4 +1,4 @@
-package org.laboration.two.model;
+package model;
 
 /**
  * The <code>Point</code> class represents a point in 2D-space. It contains one
