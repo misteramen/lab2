@@ -1,4 +1,4 @@
-package org.laboration.two.model;
+package model;
 
 /**
  * The <code>Rotatable</code> interface adds rotation functionality to its 
