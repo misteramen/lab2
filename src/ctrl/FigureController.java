@@ -27,7 +27,6 @@ import org.laboration.two.model.Vertex2D;
  * @version 1.0
  *
  */
-// HEHEHEJEJHJ
 public class FigureController implements FigureHandler, FigureMover, FigureScalor, FigureRotor, FigurePrinter {
 	private List<Figure> movableFigures;
 	private List<Scale> scalableFigures;
@@ -38,40 +37,59 @@ public class FigureController implements FigureHandler, FigureMover, FigureScalo
 		scalableFigures = new ArrayList<Scale>();
 		rotatableFigures = new ArrayList<Rotate>();
 	}
-	
-	public FigureController(List<Figure> figures) {
-		movableFigures = figures;
-		scalableFigures = new ArrayList<Scale>();
-		rotatableFigures = new ArrayList<Rotate>();
+
+	@Override
+	public void createPoint(double x, double y) {
+		movableFigures.add(new Point(position));
+	}
+
+	@Override
+	public void createLine(double x0, double y0, double x1, double y1) {
+		Line line = new Line(
+			new Vertex2D(x0, y0), 
+			new Vertex2D(x1, y1)
+		);
 		
-		for(Figure figure : figures) {
-			classify(figure);
-		}
+		movableFigures.add(line);
+		scalableFigures.add(line);
+		rotatableFigures.add(line);
 	}
 
 	@Override
-	public void createPoint(Vertex2D position) {
-		classify(new Point(position));
+	public void createTriangle(double x0, double y0, double x1, double y1, double x2, double y2) {
+		Trianglene triangle = new Triangle(
+			new Vertex2D(x0, y0), 
+			new Vertex2D(x1, y1),
+			new Vertex2D(x2, y2)
+		);
+		
+		movableFigures.add(triangle);
+		scalableFigures.add(triangle);
+		rotatableFigures.add(triangle);
 	}
 
 	@Override
-	public void createLine(Vertex2D a, Vertex2D b) {
-		classify(new Line(a, b));
+	public void createCircle(double x, double y, double radius) {
+		Circle circle = new Circle(
+			new Vertex2D(x, y), 
+			radius
+		);
+		
+		movableFigures.add(circle);
+		scalableFigures.add(circle);
 	}
 
 	@Override
-	public void createTriangle(Vertex2D a, Vertex2D b, Vertex2D c) {
-		classify(new Triangle(a, b, c));
-	}
-
-	@Override
-	public void createCircle(Vertex2D position, double radius) {
-		classify(new Circle(position, radius));
-	}
-
-	@Override
-	public void createRectangle(Vertex2D center, double width, double height) {
-		classify(new Rectangle(center, width, height));
+	public void createRectangle(double x, double y, double width, double width) {
+		Rectangle rectangle = new Rectangle(
+			new Vertex2D(x, y), 
+			width, 
+			height
+		);
+		
+		movableFigures.add(rectangle);
+		scalableFigures.add(rectangle);
+		rotatableFigures.add(rectangle);
 	}
 
 	@Override
