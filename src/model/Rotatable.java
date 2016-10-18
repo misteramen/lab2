@@ -10,7 +10,7 @@ package org.laboration.two.model;
  * @version 2.0
  *
  */
-public interface Rotatable {
+public interface Rotate {
 	/**
 	 * This method applies rotation by a supplied <code>angle</code>.
 	 * 
