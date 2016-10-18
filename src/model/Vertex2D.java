@@ -1,4 +1,4 @@
-package org.laboration.two.model;
+package model;
 
 /**
  * Class for modeling vertices. A vertex represents a position in the cartesian
