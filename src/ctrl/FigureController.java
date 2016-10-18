@@ -139,27 +139,6 @@ public class FigureController implements FigureHandler, FigureMover, FigureScalo
 		}
 	}
 	
-	private void classify(Figure unclassifiedFigure) {
-		/*
-		 * This small verification snippet prevents the program from returning a ConcurrentModificationException 
-		 * exception, in the event of unclassifiedFigure already existing in the list.
-		 * 
-		 */
-		if(!movableFigures.contains(unclassifiedFigure)) {
-			movableFigures.add(unclassifiedFigure);
-		}
-		
-		try {
-			Scale scalable = (Scale) unclassifiedFigure;
-			scalableFigures.add(scalable);
-		} catch(ClassCastException e) {
-		}
-		
-		try {
-			Rotate rotatable = (Rotate) unclassifiedFigure;
-			rotatableFigures.add(rotatable);
-		} catch(ClassCastException e) {
-		}
 	}
 	
 	public List<Figure> getMovableFigures() {
