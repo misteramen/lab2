@@ -1,4 +1,4 @@
-package org.laboration.two;
+package model;
 
 import static org.junit.Assert.*;
 
