@@ -1,4 +1,4 @@
-package org.laboration.two.model;
+package model;
 
 /**
  * The <code>Circle</code> class represents a circle in 2D-space. It contains two 
