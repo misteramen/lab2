@@ -1,4 +1,4 @@
-package org.laboration.two.control;
+package ctrl;
 
 /**
  * Interfacet <code>FigureMover</code> flyttar alla flyttbara figurer. 
