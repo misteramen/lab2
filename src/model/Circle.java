@@ -15,7 +15,7 @@ package org.laboration.two.model;
  * @version 2.0
  *
  */
-public class Circle extends Figure implements Movable, Scale {
+public class Circle extends Figure implements Scale {
 	private Vertex2D position;
 	private double radius;
 	/**
