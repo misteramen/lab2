@@ -1,4 +1,4 @@
-package org.laboration.two.model;
+package model;
 
 /**
  * The <code>Line</code> class represents a line in 2D-space. It contains two
