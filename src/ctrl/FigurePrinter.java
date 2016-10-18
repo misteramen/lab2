@@ -1,4 +1,4 @@
-package org.laboration.two.control;
+package ctrl;
 
 /**
  * Interfacet <code>FigurePrinter</code> skriver ut data för alla figurer.
