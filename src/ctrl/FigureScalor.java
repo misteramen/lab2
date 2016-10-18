@@ -1,4 +1,4 @@
-package org.laboration.two.control;
+package ctrl;
 
 /**
  * Interfacet <code>FigureScalor</code> skalar om alla skalbara figurer.
