@@ -1,4 +1,4 @@
-package org.laboration.two.model;
+package model;
 
 /**
  * The <code>Rectangle</code> class represents a rectangle in 2D-space. It contains four
