@@ -14,7 +14,7 @@ package org.laboration.two.model;
  * @version 2.0
  *
  */
-public class Line extends Figure implements Movable, Scale, Rotate {
+public class Line extends Figure implements Scale, Rotate {
 	private Vertex2D a;
 	private Vertex2D b;
 
