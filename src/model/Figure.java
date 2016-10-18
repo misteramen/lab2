@@ -1,4 +1,4 @@
-package org.laboration.two.model;
+package model;
 
 /**
  * The <code>Figure</code> class represent the base class for the representation of 
