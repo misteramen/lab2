@@ -10,7 +10,7 @@ package org.laboration.two.model;
  * @version 2.0
  *
  */
-public interface Scalable {
+public interface Scale {
 	/**
 	 * This method applies scaling in the x and y-axis by the factors xFactor and yFactor.
 	 * 
